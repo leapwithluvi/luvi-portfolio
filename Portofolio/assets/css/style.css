@@ -123,6 +123,7 @@ section {
 /* About */
 
 .about-section {
+    box-shadow: #424242;
     justify-content: center;
     align-items: center;
     margin: 7.5rem;
@@ -307,7 +308,7 @@ section {
         margin: 3rem 2rem;
     }
 
-    .about-content {
+    .about-content{
         flex-direction: column;
         text-align: center;
     }
@@ -324,10 +325,19 @@ section {
 
     .about-content .text-about h2 {
         margin-top: 2rem;
+        
+    }
+
+    .about-content .text-about h3 {
+        margin-top: 15px;
+        font-size: 1.6rem;
+        text-align: left;
     }
 
     .about-content .text-about p {
         font-size: 1.4rem;
+        text-align: left;
+        margin-top: 15px;
     }
 
     .menu {
@@ -408,8 +418,16 @@ section {
         margin-top: 2rem;
     }
 
-    .about-content .text-about p {
+    .about-content .text-about h3 {
+        margin-top: 15px;
         font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .about-content .text-about p {
+        font-size: 1.4rem;
+        text-align: left;
+        margin-top: 15px;
     }
 
     .menu {
@@ -481,6 +499,18 @@ section {
         margin-top: 2rem;
     }
 
+        .about-content .text-about h3 {
+        margin-top: 15px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .about-content .text-about p {
+        font-size: 1.4rem;
+        text-align: left;
+        margin-top: 5px;
+    }
+
         .card-container {
         display: flex;
         flex-wrap: wrap;
@@ -524,6 +554,19 @@ section {
         margin-top: 2rem;
     }
 
+        .about-content .text-about h3 {
+        margin-top: 15px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .about-content .text-about p {
+        font-size: 1.4rem;
+        text-align: left;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+
     .card-container {
         display: flex;
         flex-wrap: wrap;
@@ -549,6 +592,18 @@ section {
     }
     .about-content .text-about .p-serti {
         display: none;
+    }
+
+        .about-content .text-about h3 {
+        margin-top: 15px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .about-content .text-about p {
+        font-size: 1.4rem;
+        text-align: left;
+        margin-top: 5px;
     }
 
     
